@@ -1,7 +1,7 @@
 #include <stdio.h>
-/**                                                                                                                                                  
- * main - describing the sizeof function                                                                                                                      
- * Return: 0                                                                                                                                         
+/** 
+ * main - describing the sizeof function          
+ * Return: 0
  */
 int main(void)
 {
