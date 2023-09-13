@@ -12,10 +12,10 @@ int main(void)
 int num1 = 1;
 int num2 = 2;
 int next_num;
-
+int i = 3;
 printf("%d, %d", num1, num2);
 
-for (int i = 3; i <= 98; i++)
+for (; i <= 98; i++)
 {
 next_num = num1 + num2;
 
