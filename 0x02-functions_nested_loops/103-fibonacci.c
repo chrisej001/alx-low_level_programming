@@ -11,7 +11,7 @@ long fib1 = 1;
 long fib2 = 2;
 long sum = 0;
 long next_term;
- 
+
 while (fib2 <= 4000000)
 {
 if (fib2 % 2 == 0)
