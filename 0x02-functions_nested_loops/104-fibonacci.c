@@ -9,17 +9,17 @@
 
 int main(void)
 {
-long long int num1 = 1LL;
-long long int num2 = 2LL;
-long long int next_num;
+long num1 = 1L;
+long num2 = 2L;
+long next_num;
 int i = 3;
-printf("%lld, %lld", num1, num2);
+printf("%ld, %ld", num1, num2);
 
 for (; i <= 98; i++)
 {
 next_num = num1 + num2;
 
-printf("%lld", next_num);
+printf(", %ld", next_num);
 
 num1 = num2;
 num2 = next_num;
