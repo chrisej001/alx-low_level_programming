@@ -10,7 +10,8 @@ int main(void)
 long fib1 = 1;
 long fib2 = 2;
 long sum = 0;
-
+long next_term;
+ 
 while (fib2 <= 4000000)
 {
 if (fib2 % 2 == 0)
@@ -18,7 +19,7 @@ if (fib2 % 2 == 0)
 sum += fib2;
 }
 
-long next_term = fib1 + fib2;
+next_term = fib1 + fib2;
 fib1 = fib2;
 fib2 = next_term;
 }
