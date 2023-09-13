@@ -9,19 +9,17 @@
 
 int main(void)
 {
-int num1 = 1;
-int num2 = 2;
-int next_num;
+long long int num1 = 1LL;
+long long int num2 = 2LL;
+long long int next_num;
 int i = 3;
-printf("%d, %d", num1, num2);
+printf("%lld, %lld", num1, num2);
 
 for (; i <= 98; i++)
 {
 next_num = num1 + num2;
 
-printf(", ");
-
-printf("%d", next_num);
+printf("%lld", next_num);
 
 num1 = num2;
 num2 = next_num;
