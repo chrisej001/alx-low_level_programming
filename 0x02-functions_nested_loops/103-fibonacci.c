@@ -7,19 +7,23 @@
 
 int main(void)
 {
-long fib1 = 0;
-long fib2 = 1;
-int i = 1;
-printf("%ld\n", fib1);
+long fib1 = 1;
+long fib2 = 2;
+long sum = 0;
 
-for (; i < 10; i++)
+while (fib2 <= 4000000)
 {
+if (fib2 % 2 == 0)
+{
+sum += fib2;
+}
+
 long next_term = fib1 + fib2;
-printf("%ld\n", next_term);
 fib1 = fib2;
 fib2 = next_term;
 }
 
+printf("%ld\n", sum);
 
 return (0);
 }
