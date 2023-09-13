@@ -8,22 +8,15 @@ int main(void)
 {
 long fib1 = 1;
 long fib2 = 2;
-long sum = 0;
 
-while (fib2 <= 4000000)
-{
-if (fib2 % 2 == 0)
-{
-sum += fib2;
-}
+printf("%ld\n", fib1);
 
+for (int i = 1; i < 10; i++)
+{
 long next_term = fib1 + fib2;
-fib1 = fib
+printf("%ld\n", next_term);
+fib1 = fib2;
 fib2 = next_term;
 }
-
-printf("Sum of even-valued Fibonacci terms not exceeding 4,000,000: %ld\n",
-sum);
-
 return (0);
 }
