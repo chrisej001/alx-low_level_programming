@@ -11,6 +11,7 @@ long fib2 = 2;
 
 printf("%ld\n", fib1);
 
+int i;
 for (int i = 1; i < 10; i++)
 {
 long next_term = fib1 + fib2;
