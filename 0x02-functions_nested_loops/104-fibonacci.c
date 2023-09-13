@@ -13,8 +13,9 @@ long num1 = 1L;
 long num2 = 2L;
 long next_num;
 
+long i = 3;
 printf("%ld, %ld", num1, num2);
-int i = 3;
+
 for (; i <= 98; i++)
 {
 next_num = num1 + num2;
