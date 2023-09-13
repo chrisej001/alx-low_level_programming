@@ -16,7 +16,7 @@ int i = 1;
 for (; i < 10; i++)
 {
 long next_term = fib1 + fib2;
-printf("%ld\n", next_term)
+printf("%ld\n", next_term);
 fib1 = fib2;
 fib2 = next_term;
 }
