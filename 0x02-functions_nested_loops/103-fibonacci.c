@@ -19,5 +19,6 @@ printf("%ld\n", next_term);
 fib1 = fib2;
 fib2 = next_term;
 }
+
 return (0);
 }
