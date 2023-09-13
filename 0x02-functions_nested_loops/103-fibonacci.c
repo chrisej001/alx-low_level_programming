@@ -9,10 +9,9 @@ int main(void)
 {
 long fib1 = 0;
 long fib2 = 1;
-
+int i = 1;
 printf("%ld\n", fib1);
 
-int i = 1;
 for (; i < 10; i++)
 {
 long next_term = fib1 + fib2;
