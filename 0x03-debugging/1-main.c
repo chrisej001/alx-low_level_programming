@@ -13,14 +13,11 @@ printf("Potential infinite loop incoming :(\n");
 
 i = 0;
 
-/* 
- * 
- while (i < 10)
- {
- putchar(i);
- }
- */
-    
+/*while (i < 10)*/
+/*{*/
+/*putchar(i);*/
+/*}*/
+
 printf("Potential infinite loop avoided! \\o/\n");
 
 return (0);
